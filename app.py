@@ -6,6 +6,7 @@ def convert_units(value, from_unit, to_unit, conversion_dict):
     return None
 
 def main():
+    st.set_page_config(page_title="Unit Convertor", layout='wide')
     st.title("Unit Converter")
     
     categories = {
